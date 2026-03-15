@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width initial-scale=1.0" />
+    <title>Contact us</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="header">
+      <nav class="navbar">
+        <a class="color-btn" href="index.html">Home</a>
+        <a class="color-btn" href="games.html">Back</a>
+        <a class="color-btn" href="about.html">About</a>
+      </nav>
+    </header>
+    <div class="wallpaper">
+      <form
+        class="form-box"
+        action="https://formsubmit.co/therese8949@gmail.com"
+        method="POST"
+      >
+        <input type="hidden" name="_subject" value="New email from Game Shop" />
+        <input
+          id="email-box"
+          type="email"
+          name="email"
+          placeholder="Email address"
+          required
+        />
+        <input type="hidden" name="_next" value="thankyoupage.html" />
+        <textarea
+          id="write-message"
+          name="message"
+          placeholder="Write your message here"
+          required
+        ></textarea>
+        <button type="submit">Send</button>
+      </form>
+    </div>
+  </body>
+</html>
